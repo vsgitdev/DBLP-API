@@ -1,0 +1,101 @@
+.page {
+    width:500px;
+    height:170px;
+    padding:30px;
+    margin:30px;
+    background-color: #f0f8fd;
+    border: 1px solid #000;
+    border-radius: 1.5rem;
+    border-color: #fff;
+    box-shadow: 0 0 0.7rem rgba(0, 0, 0, 0.3);
+  }
+  
+  h1 {
+    padding-bottom: 20px;
+    padding-left: 50px;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+   }
+  
+  label {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    padding-right: 20px;
+  }
+  
+  .inpt {
+    margin-left:50px;
+  }
+  
+  input {
+    font-family: 'Josefin Sans', sans-serif;
+    width: 200px;
+    height: 25px;
+    padding: 0 1rem;
+    border: 0.1rem solid #ddd;
+    border-radius: 0.4rem;
+    background-color: #d6e1e9;  
+    outline: none;
+  }
+  
+  input:focus {
+    background-color: #fff;
+    color: #1aa1f5;
+    border-color: #1aa1f5; 
+    border-radius: 0.4rem;
+    transition: background-color 0.5s;
+  }
+  
+  .btn {
+   padding-top:7px;  
+   padding-left: 350px;
+  }
+  
+  button {
+    font-family: 'Josefin Sans', sans-serif;
+    padding:13px;
+    background-color: #1aa1f5;
+    color: #fff;
+    border-radius: 3rem;
+    border: 0.1rem solid #1aa1f5;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #fff;
+    color: #1aa1f5;  
+  }
+  
+  .pagination-button {
+        margin-right: 5px;
+        margin-bottom: 5px;
+        background-color: #1aa1f5;
+        color: #fff;
+        padding: 2px 10px;
+        text-align: center;
+        font-size: 14px;
+        border: 0.1rem solid #1aa1f5;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+  
+      .pagination-button:hover {
+        background-color: #fff;
+        color: #1aa1f5;
+      }
+  
+   table {
+     width: 100%;
+     background-color: #f0f8fd;
+     margin-bottom: 30px;
+  }
+  
+  td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+  }

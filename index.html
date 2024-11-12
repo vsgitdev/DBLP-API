@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>Computer Publications</title>
+</head>
+
+<body>
+    <div class="page">
+        <h1>Computer Science Publications</h1>
+        <div class="inpt">
+            <label> Author's name: </label>
+            <input type="text" placeholder="Please enter the full author name." id="authorName">
+        </div>
+        <br>
+        <div class="btn">
+            <button onclick="searchPublications()">Seach Publications</button>
+        </div>
+    </div>
+    <div id="results"></div>
+    <div id="pagination"></div>
+
+    <script src="script.js"></script>
+</body>
